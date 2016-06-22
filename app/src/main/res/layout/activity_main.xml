@@ -12,13 +12,13 @@
 
     <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="200dp"
         android:layout_gravity="center_horizontal">
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="100dp">
+            android:layout_margin="10dp">
 
             <TextView
                 android:id="@+id/tvProductID"
@@ -37,7 +37,7 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="100dp">
+            android:layout_margin="10dp">
 
             <TextView
                 android:id="@+id/tvProductName"
@@ -56,7 +56,7 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="100dp">
+            android:layout_margin="10dp">
 
             <TextView
                 android:id="@+id/tvProductQuality"
@@ -67,10 +67,33 @@
 
             <EditText
                 android:id="@+id/etProductQuality"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:textAppearanceLarge" />
         </TableRow>
 
     </TableLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnAddProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add product" />
+
+        <Button
+            android:id="@+id/btnLookupProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lookup Product" />
+
+        <Button
+            android:id="@+id/btnDeleteProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete Product" />
+    </LinearLayout>
 </LinearLayout>
