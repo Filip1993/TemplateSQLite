@@ -7,7 +7,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 /**
- * Created by Filip on 22.6.2016..
+ * Created by Filip on 22.6.2016.. PITANJE -> Treba li biti tocka-zarez na kraju SQL statementa?
  */
 public class MyDBHandler extends SQLiteOpenHelper {
 

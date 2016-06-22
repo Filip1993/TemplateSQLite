@@ -1,7 +1,7 @@
 package com.filipkesteli.templatesqlite;
 
 /**
- * Created by Filip on 22.6.2016.. POJO class -> constructor, getters and setters
+ * Created by Filip on 22.6.2016.. POJO klasa -> constructor, getters and setters
  */
 public class Product {
 
